@@ -1,0 +1,80 @@
+.login-container{
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 33%;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.login-container h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 134, 139);
+    font-size: 36px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1.5px solid rgb(0, 134, 139);
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    width: 80%;
+    margin: 0 10px;
+}
+
+.textbox input::placeholder {
+    color: rgb(55, 112, 126);
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    background-color: rgb(0, 134, 139);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* .btn:hover{
+    background-color: black;
+    transition: 0.5s;
+} */
+
+.btn-reg {
+    font-size: 22;
+    color: black;
+}
+
+.btn-reg a {
+    color: rgb(0, 134, 139);
+    text-decoration: none;
+}
+
+.btn-reg a:hover {
+    transition: 0.5s;
+    color: rgb(55, 112, 126);
+    text-decoration: underline;
+}
+
+.btn-reg p{
+    text-align: center;
+}
+
+.error-message{
+    color: red;
+    text-align: center;
+}

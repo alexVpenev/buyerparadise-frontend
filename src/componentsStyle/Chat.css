@@ -1,0 +1,22 @@
+.App {
+    margin-left: 1vh;
+}
+
+.receivedMessages{
+    width: 310px;
+    height: 500px;
+    color: rgb(22, 30, 32);
+    background-color: rgba(195, 255, 255, 0.801);
+}
+
+.sendMessage{
+    width: 310px;
+    /* border-radius: 10px; */
+}
+
+.sendMessage-input {
+    width: 187px;
+    background-color: rgba(240, 255, 255, 0.801);
+    margin-top: 10px;
+    margin-right: 10px;
+}

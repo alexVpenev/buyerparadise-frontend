@@ -1,0 +1,14 @@
+.offer-page-img{
+    margin-left: 10vh;
+    float: left;
+    width: 100vh;
+    height: 60vh;
+    /* background-color: lightgray; */
+    border-bottom: 1px solid gray;
+    border-radius: 30px;
+}
+
+.offer-page-info{
+    margin-top: 10vh;
+}
+

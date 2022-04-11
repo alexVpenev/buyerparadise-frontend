@@ -1,0 +1,49 @@
+.main {
+    margin-top: 7vh;
+  }
+
+  .search-header{
+    text-align: center;
+    color: rgb(0, 134, 139);
+    font-style: italic;
+}
+
+.search-bar-box{
+    width: 50vh;
+    height: 5vh;
+    border: none;
+    color: rgb(55, 112, 126);
+    border-bottom: 1px solid rgb(0, 134, 139);
+}
+
+.search-row{
+    margin-left: 30%;
+}
+  
+.beautButton {
+  outline: none;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-left: 2vh;
+  margin-bottom: 1vh;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(55, 112, 126);
+  height: 5vh;
+  width: 20vh;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgb(0, 134, 139);
+
+}
+
+.individualCard {
+  width: 18.6%;
+  margin: 10px;
+
+}
+
+.s-row {
+  display: flex;
+  flex-wrap: wrap;
+}

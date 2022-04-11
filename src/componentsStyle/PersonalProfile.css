@@ -1,0 +1,96 @@
+
+.personal-profile{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected-profile-data {
+    width: 12%;
+    margin-left: 5vh;
+    margin-top: 10vh;
+    height: 80vh;
+    border-right: 1.5px solid lightgray;
+
+}
+
+.chat {
+    width: 10%;
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+
+.all-offers-row{
+    margin-top: 7vh;
+    width: 60%;
+    border-right: 1.5px solid lightgray;
+}
+
+
+.personal-row {
+    width: 30%;
+    margin: 10px;
+  
+  }
+  
+  .o-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .selected-profile-container{
+    margin-top: 2%;
+    display: flex;
+}
+
+.selected-profile-container h1{
+    color: darkblue;
+}
+
+.selected-subscription-row{
+    overflow-y: scroll;
+    width: 100%;
+    height: 85vh;
+    margin-top: 1%;
+}
+
+
+
+.selected-profile-picture-box img {
+    width: 50%;
+    padding: 5vh;
+    height: 100%;
+}
+
+.selected-profile-details {
+    padding: 1%;
+    width: 105%;
+}
+
+.selected-profile-details h1 {
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    padding: 3%;    
+}
+
+.selected-profile-detail {
+    display: flex;
+
+}
+
+.selected-profile-detail img {
+    width: 15%;
+    height: 15%;
+
+}
+
+.selected-profile-detail p {
+    width: 80%;
+    padding-left: 5%;
+    font-size: 2vh;
+}
+
+.selected-subscription-row h1{
+    color: darkblue;
+    margin-left: 5%;
+}
